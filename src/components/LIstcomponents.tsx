@@ -1,9 +1,8 @@
 const ListGroup=()=>{
-    let selecedindex=-1;
     const item=['Hii','Hello','Bye'];
-    selecedindex=1;
+    let selecedindex=0;
     const clickHandeler=()=>{
-    //  alert()
+    // alert()
     }
     return(
         <>

@@ -9,6 +9,7 @@ import CounterClass from "./components/CounterClass";
 import TimerCount from "./components/Timecount";
 import ListGroup from "./components/LIstcomponents";
 import Listnew from "./components/Listnew";
+import Api from "./components/api";
 function App() {
   function clickhandler1() {
     alert('first clicked');
@@ -22,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="header">React with TypeScript collage</h1>
-      {/* <Counter />
+      <Counter />
       <Greet data="first" value="value 1" myclick={clickhandler1} />
       <Greet data="second" value="value 2" myclick={clickhandler2} />
       <hr/>
@@ -33,10 +34,13 @@ function App() {
       <CounterClass/>
       <hr/>
       <TimerCount/>
-      <hr/> */}
+      <hr/>
       <ListGroup/>
       <hr/>
       <Listnew/>
+      <hr/>
+      <Api/>
+      <hr/>
     </div>
   );
 }
