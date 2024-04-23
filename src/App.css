@@ -42,4 +42,7 @@ button {
     background-color: #3e8e41;
     border-color: #3e8e41;
   }
-  
+  .active{
+    background-color: blue;
+    color: white;
+  }
