@@ -80,4 +80,9 @@ button {
   .nun:hover {
     background-color: darkblue;
   }
-  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    width: 200px; 
+  }

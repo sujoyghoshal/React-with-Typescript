@@ -10,6 +10,8 @@ import TimerCount from "./components/Timecount";
 import ListGroup from "./components/LIstcomponents";
 import Listnew from "./components/Listnew";
 import Api from "./components/api";
+import Inputvalue from "./components/inputvalue";
+import UI from "./components/ui";
 function App() {
   function clickhandler1() {
     alert('first clicked');
@@ -40,6 +42,10 @@ function App() {
       <Listnew/>
       <hr/>
       <Api/>
+      <hr/>
+      <Inputvalue/>
+      <hr/>
+      <UI/>
       <hr/>
     </div>
   );
