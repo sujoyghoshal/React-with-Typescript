@@ -12,6 +12,7 @@ import Listnew from "./components/Listnew";
 import Api from "./components/api";
 import Inputvalue from "./components/inputvalue";
 import UI from "./components/ui";
+import CounterClasschange from "./components/CounterClasschange";
 function App() {
   function clickhandler1() {
     alert('first clicked');
@@ -47,6 +48,8 @@ function App() {
       <hr/>
       <UI/>
       <hr/>
+      <CounterClasschange/>
+      <Inputvalue/>
     </div>
   );
 }
